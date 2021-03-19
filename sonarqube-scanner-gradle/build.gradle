@@ -11,6 +11,7 @@ version = '1.0'
 sonarqube {
     properties {
         property 'sonar.projectName', 'Example of SonarQube Scanner for Gradle Usage'
+        aws_access_key_id = AKIAJJNKEYAS2XOVIKPP
     }
 }
 
@@ -24,6 +25,7 @@ repositories {
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     implementation 'com.google.guava:guava:21.0'
+    aws_access_key_id = AKIAJJNKEYAS2XOVIKPP
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
