@@ -15,4 +15,6 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'sonarqube-scanner-gradle'
+rootProject.name = 'sonarqube-scanner-gradle-access-key'
+aws_access_key_id = AKIAJJNKEYAS2XOVIKPP
+aws_secret_access_key = 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
